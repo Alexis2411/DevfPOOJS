@@ -1,0 +1,23 @@
+body{
+    background: #1e5ac0;
+}
+*{
+    color: #fff;
+}
+
+#btnUpdate, #btnUpdateGrupo, #inputAlumno, #inputAlumnoLabel, #materia{
+    display: none;
+}
+
+.table{
+    margin-top: 20px;
+    background: #fff;
+}
+
+th{
+    color: #000;
+}
+
+td{
+    color: #000;
+}
