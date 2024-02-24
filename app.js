@@ -38,7 +38,8 @@ class materia {
   }
 }
 
-(document.onload = showData(), showGrupos());
+document.onload = showData();
+document.onload = showGrupos();
 
 //validation form
 function validateForm() {
@@ -153,6 +154,7 @@ function addMateria(index) {
       document.getElementById("inputMateria").value = "";
         document.getElementById("inputCalificacion").value = "";
       showData();
+      showMaterias(ialumno.materias);
     }
   };
   document.querySelector("#btnTermine").onclick = function () {
